@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Coins</title>
+</head>
+<body>
+
+<h1>Alle Coins</h1>
+<form action="control/allecoins.php" method="POST" >
+    Hent Alle: <button type="submit" value="Klik" name="AlleBtn"></button>
+</form>
+
+<h1>En Coin</h1>
+<form action="control/encoin.php" method="POST">
+    ID: <Input type="text" value="" name="ID" />
+    SEND: <Input type="submit" value="Hent En" name="EnBtn" />
+</form>
+
+
+<h1>Tilføj en Coin</h1>
+<form action="control/addcoin.php" method="POST">
+    Genstand: <Input type="text" value="" name="Genstand" />
+    Minpris: <Input type="number" value="" name="Minpris" />
+    Bud: <Input type="number" value="" name="Bud" />
+    Navn: <Input type="text" value="" name="Navn" />
+    SEND: <Input type="submit" value="Tilføj" name="AddBtn" />
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Alle Coins</title>
+</head>
+<body>
+
+<p>
+    {% for c in Coins %}
+    {{ c.Id }}<br/>
+    {{ c.Genstand}}<br/>
+    {{ c.Minpris }}<br/>
+    {{ c.Bud }}<br/>
+    {{ c.Navn }}<br/>
+    <br/>
+    {% endfor %}
+</p>
+
+</body>
+</html>
